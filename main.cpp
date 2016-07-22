@@ -56,7 +56,7 @@ SmartHouseApplication::SmartHouseApplication(const WEnvironment& env)
   domController->loadItemsFromFile("settings.xml");
   setTitle("Smart House");                               // application title
 
-  root()->addWidget(new WText("Your name, please ? "));  // show some text
+  root()->addWidget(new WText("Your name, please Ivan? "));  // show some text
   nameEdit_ = new WLineEdit(root());                     // allow text input
   nameEdit_->setFocus();                                 // give focus
 
