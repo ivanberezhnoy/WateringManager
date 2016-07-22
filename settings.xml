@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <smartItems>
+    <item>
+        <id>Nasos ID</id>
+        <name>Насос</mame>
+        <outputPin>1</output>
+        <itemsToActivate></itemsToActivate>
+        <itemsToDeactivate></itemsToDeactivate>
+    </item>
+    <item>
+        <id>House Tank ID</id>
+        <name>Вода в доме</mame>
+        <outputPin>2</output>
+        <inputPin>3</inputPin>
+        <itemsToActivate>
+          <itemID>Nasos ID</itemID>
+        </itemsToActivate>
+        <itemsToDeactivate></itemsToDeactivate>
+    </item>
+  </smartItems>
+</settings>
